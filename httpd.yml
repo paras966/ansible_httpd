@@ -1,0 +1,10 @@
+- hosts:
+  tasks:
+    - name: download software
+      package:
+        name: httpd
+        state: present
+    - name: copy content
+      copy:
+        dest: /var/www/html/index.html
+        content: "This is my webApp"
