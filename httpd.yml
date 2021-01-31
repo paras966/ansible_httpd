@@ -7,4 +7,4 @@
     - name: copy content
       copy:
         dest: /var/www/html/index.html
-        content: "This is my webApp 3"
+        content: "This is my webApp 4"
