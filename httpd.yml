@@ -8,3 +8,8 @@
       copy:
         dest: /var/www/html/index.html
         content: "This is my webApp 5"
+
+    - name: start service
+      service:
+        name: httpd
+        state: started
